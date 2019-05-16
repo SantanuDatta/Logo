@@ -124,11 +124,7 @@ header .fas{
 }
 
 .dropdown:hover>.dropdown-menu{
-    display: block;
-}
-
-.dropdown:focus>.dropdown-menu{
-    display: block;
+    display: inline-block;
 }
 
 .dropdown-item:focus, .dropdown-item:hover{
