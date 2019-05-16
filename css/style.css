@@ -123,8 +123,11 @@ header .fas{
     color: #fff;
 }
 
-.dropdown:hover>.dropdown-menu{
-    display: inline-block;
+.dropdown:hover>.menu{
+    display: block;
+    transition: 0.3s all ease-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
 }
 
 .dropdown-item:focus, .dropdown-item:hover{
