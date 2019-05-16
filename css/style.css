@@ -22,7 +22,7 @@ a:hover{
 	text-decoration: none;
 }
 
-*, ::after, ::before{
+ ::after, ::before{
     box-sizing: border-box;
 }
 /*1.0 Global CSS End*/
