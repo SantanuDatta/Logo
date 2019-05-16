@@ -127,6 +127,10 @@ header .fas{
     display: block;
 }
 
+.dropdown:focus>.dropdown-menu{
+    display: block;
+}
+
 .dropdown-item:focus, .dropdown-item:hover{
     background-color: #63b96b ;
     color: #fff;
