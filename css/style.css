@@ -34,19 +34,14 @@ header{
 	padding: 20px 0px;
 }
 
-.your{
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 18px;
-    color: #4ca254;
+.navbar-brand{
+    width: 18%;
 }
 
-.your:hover{
-    color: #4ca254;
-}
-
-.logo{
-    color: #f8812c;
+header img{
+    width: 110%;
+    display: block;
+    margin: 0 auto;
 }
 
 .mr-sm-2{
