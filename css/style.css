@@ -1,0 +1,541 @@
+/* ========================
+   -CSS Code Structure
+    1. Global CSS
+    2. Typography
+    3. Header Section
+    4. Tab Section
+    5. Frozen Food Section
+    6. Fresh Food Section
+    7. Home Health Section
+    8. Beverage Section
+    9. Pet Food Section
+    10. End Tab Section
+    11. Social Media Section
+    12. Policy Section
+    13. Footer Section
+========================== */
+
+
+/*1.0 Global CSS Start*/
+
+a:hover{
+	text-decoration: none;
+}
+
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+/*1.0 Global CSS End*/
+
+/*3.0 Header Section Start*/
+
+header{
+	background-color: #eaeaea;
+	padding: 20px 0px;
+}
+
+.your{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    color: #4ca254;
+}
+
+.your:hover{
+    color: #4ca254;
+}
+
+.logo{
+    color: #f8812c;
+}
+
+.mr-sm-2{
+    margin-right: 0px !important;
+}
+
+header .fas{
+    font-size: 20px;
+}
+
+.nav-link{
+	color: #4ca254;
+	text-align: center;
+	margin: 0px 10px;
+	padding: 7px 0px;
+}
+
+.nav-link:hover{
+	color: #63b96b;
+}
+
+.navbar-expand-lg{
+	width: 100%;
+}
+
+.sign-in{
+	background-color: #fff;
+	border-radius: 6px;
+	color: #4ca254;
+}
+
+.sign-in:hover{
+	background-color: #4ca254;
+	color: #ffff;
+}
+
+.account{
+	background-color: #f8812c;
+	color: #fff;
+	border-radius: 6px;
+}
+
+.account:hover{
+	color: #fff;
+}
+/*3.0 Header Section End*/
+
+/*4.0 Tab Section Start*/
+
+.tab{
+	background-color: #4ca254;
+	display: block;
+    margin: auto;
+	padding: 5px 0px;
+}
+
+.tab .row{
+    display: block;
+}
+
+.tab ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.tab ul li a:hover{
+    color: #fff;
+    border-radius: 0px;
+}
+
+.dropdown-menu{
+    background-color: #4ca254;
+    color: #fff;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: #63b96b ;
+    color: #fff;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle{
+    background-color: #63b96b ;
+    color: #fff;
+    border-color: #4ca254;
+}
+
+
+/*4.0 Tab Section End*/
+
+/*5.0 Frozen Food Section Start*/
+
+.content-header{
+    background-color: #F2F3F4;
+    display: flex;
+    justify-content: space-between;
+    position: relative;  
+    margin: 40px auto 0px;
+    border: 1px solid #fff;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+}
+
+.content-header h2{
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+.view-all{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 15px 16px;
+    box-sizing: border-box;
+    transition: 0.12s ease-in-out 0s;
+    text-indent: 0;
+    width: auto;
+}
+
+.view-all a{
+    color: #fff;
+    background-color: #4fa157;
+    padding: 8px 16px;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+.btn-primary{
+    display: block;
+    margin: 5px auto;
+    background-color: #4fa157;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: #63b96b;
+    border-color: #63b96b;
+}
+
+.fresh-deal .fas{
+    font-size: 15px;
+}
+
+.card:hover{
+    -webkit-box-shadow: 0 0 5px #999;
+    -moz-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999;
+    transition: 0.3s all ease-out;
+    -webkit-transition: 0.3s all ease-out;
+    -moz-transition: 0.3s all ease-out;
+}
+/*5.0 Frozen Food Section End*/
+
+/*6.0 Fresh Food Section Start*/
+
+.content-header{
+    background-color: #F2F3F4;
+    display: flex;
+    justify-content: space-between;
+    position: relative;  
+    margin: 40px auto 0px;
+    border: 1px solid #fff;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+}
+
+.content-header h2{
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+.view-all-second{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 15px 16px;
+    box-sizing: border-box;
+    transition: 0.12s ease-in-out 0s;
+    text-indent: 0;
+    width: auto;
+}
+
+.view-all-second a{
+    color: #fff;
+    background-color: #4fa157;
+    padding: 8px 16px;
+    font-weight: bold;
+    line-height: 1em;
+}
+/*6.0 Fresh Food Section End*/
+
+/*7.0 Fresh Food Section Start*/
+
+.content-header{
+    background-color: #F2F3F4;
+    display: flex;
+    justify-content: space-between;
+    position: relative;  
+    margin: 40px auto 0px;
+    border: 1px solid #fff;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+}
+
+.content-header h2{
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+.view-all-third{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 15px 16px;
+    box-sizing: border-box;
+    transition: 0.12s ease-in-out 0s;
+    text-indent: 0;
+    width: auto;
+}
+
+.view-all-third a{
+    color: #fff;
+    background-color: #4fa157;
+    padding: 8px 16px;
+    font-weight: bold;
+    line-height: 1em;
+}
+/*7.0 Fresh Food Section End*/
+
+/*8.0 Health Section Start*/
+
+.content-header{
+    background-color: #F2F3F4;
+    display: flex;
+    justify-content: space-between;
+    position: relative;  
+    margin: 40px auto 0px;
+    border: 1px solid #fff;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+}
+
+.content-header h2{
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+.view-all-fourth{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 15px 16px;
+    box-sizing: border-box;
+    transition: 0.12s ease-in-out 0s;
+    text-indent: 0;
+    width: auto;
+}
+
+.view-all-fourth a{
+    color: #fff;
+    background-color: #4fa157;
+    padding: 8px 16px;
+    font-weight: bold;
+    line-height: 1em;
+}
+/*8.0 Health Section End*/
+
+/*9.0 Health Section Start*/
+
+.content-header{
+    background-color: #F2F3F4;
+    display: flex;
+    justify-content: space-between;
+    position: relative;  
+    margin: 40px auto 0px;
+    border: 1px solid #fff;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+}
+
+.content-header h2{
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+.view-all-fifth{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 15px 16px;
+    box-sizing: border-box;
+    transition: 0.12s ease-in-out 0s;
+    text-indent: 0;
+    width: auto;
+}
+
+.view-all-fifth a{
+    color: #fff;
+    background-color: #4fa157;
+    padding: 8px 16px;
+    font-weight: bold;
+    line-height: 1em;
+}
+/*9.0 Pet Section End*/
+
+/*10.0 End Tab Section Start*/
+
+.end-tab{
+    padding: 20px 0px;
+    background-color: #4ca254;
+	display: block;
+}
+
+.end-tab ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.end-tab li{
+    list-style: none;
+    display: inline-block;
+}
+
+.end-tab ul li a{
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.end-tab ul li a:hover{
+    background-color: #63b96b;
+    padding: 5px 10px;
+}
+
+.left-side{
+    display: block;
+    text-align: left;
+}
+
+.right-side{
+    display: block;
+    text-align: right;
+}
+/*10.0 End Tab Section End*/
+
+/*11.0 Social Media Section Start*/
+
+
+.media{
+    padding: 15px 0px 10px;
+    display: block;
+}
+
+.media .row{
+    border-bottom: 1px dotted;
+}
+
+.media ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.media li{
+    list-style: none;
+    display: inline-block;
+}
+
+.media ul li a{
+    color: #4ca254;
+    padding: 5px 5px;
+}
+
+.media-left{
+    display: block;
+    text-align: left;
+}
+
+.media-right{
+    display: block;
+    text-align: right;
+    margin: auto;
+}
+
+.media-right a{
+    display: block;
+    
+}
+
+.mobile{
+    display: block;
+    margin: auto;
+}
+
+.fab{
+    font-size: 30px;
+}
+
+.fas{
+    font-size: 30px;
+}
+
+.fa-facebook-square{
+    color: #4267B2;
+}
+
+.fa-twitter-square{
+    color: #1DA1F2;
+}
+
+.fa-pinterest{
+    color: #E60023;
+}
+
+.fa-youtube{
+    color: #FF0000;
+}
+
+.fa-mobile-alt{
+    color: #333;
+}
+/*11.0 Social Media Section End*/
+
+/*12.0 Policy Section Start*/
+
+.policy{
+    padding: 10px 0px;
+    display: block;
+    margin: 0 auto;
+}
+
+.policy ul{
+    margin: 0px;
+    display: block;
+    text-align: center;
+    padding: 0px;
+}
+
+.policy li{
+    list-style: none;
+    display: inline-block;
+}
+
+.policy ul li a{
+    color: #4ca254;
+    padding: 5px 10px;
+}
+/*12.0 Policy Section End*/
+
+/*13.0 Footer Section Start*/
+
+footer .col-lg-12 p{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+/*13.0 Footer Section End*/
+
+
+

@@ -1,0 +1,6 @@
+$(function() {
+    $('.jcarousel').jcarousel({
+        
+    });
+});
+
